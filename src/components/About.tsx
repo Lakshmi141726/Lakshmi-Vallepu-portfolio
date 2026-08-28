@@ -80,10 +80,9 @@ const About = () => {
   ];
 
   const summaryPoints = [
-    "Cybersecurity Engineer with 4+ years of experience in Security Operations Center (SOC), Incident Response, Cyber Threat Detection, Vulnerability Management, and Information Security across financial, healthcare, and enterprise environments.",
-    "Skilled in SIEM, SOAR, and endpoint security using Splunk, Microsoft Sentinel, QRadar, CrowdStrike Falcon, SentinelOne, and Cortex XDR to strengthen threat detection and response capabilities.",
-    "Hands-on experience securing AWS, Azure, and GCP environments, implementing IAM controls with CyberArk, Okta, and Entra ID, and protecting enterprise networks through Zero Trust and Network Security practices.",
-    "Experienced in DevSecOps, penetration testing, security automation, and compliance initiatives supporting NIST, PCI-DSS, HIPAA, SOX, FFIEC, and ISO 27001 requirements."
+    "Senior Cybersecurity Engineer with 4+ years securing multi-cloud environments (AWS, Azure, GCP) across financial services and healthcare — delivering 45% faster incident response, 40% lower privileged access risk, and 30% fewer production vulnerabilities.",
+    "Deep expertise in SIEM/SOAR architecture (Splunk, Microsoft Sentinel, QRadar), IAM (CyberArk, Entra ID, Zero Trust), and DevSecOps automation across CI/CD pipelines.",
+    "Proven track record leading vulnerability management, threat hunting, and compliance initiatives (NIST, ISO 27001, SOC 2, HIPAA, PCI-DSS) across enterprise-scale environments."
   ];
 
   const skillGroups = [
@@ -93,11 +92,8 @@ const About = () => {
       headingColor: "text-blue-600 dark:text-blue-400",
       tagClass: "bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300 border border-blue-100/50 dark:border-blue-900/40 hover:bg-blue-100/60 dark:hover:bg-blue-950/60",
       skills: [
-        "Cybersecurity", "Information Security", "InfoSec", "SOC", 
-        "Security Operations", "Security Engineering", "Threat Detection", 
-        "Threat Hunting", "Incident Response", "Security Monitoring", 
-        "Detection Engineering", "Threat Intelligence", "Risk Management", 
-        "IT Security", "SOAR"
+        "Security Engineering", "Incident Response", "Threat Hunting",
+        "Threat Intelligence", "Security Operations Center (SOC)", "SOAR"
       ]
     },
     {
@@ -106,10 +102,8 @@ const About = () => {
       headingColor: "text-rose-600 dark:text-rose-400",
       tagClass: "bg-rose-50 text-rose-700 dark:bg-rose-950/40 dark:text-rose-300 border border-rose-100/50 dark:border-rose-900/40 hover:bg-rose-100/60 dark:hover:bg-rose-950/60",
       skills: [
-        "Splunk Enterprise Security", "Microsoft Sentinel", "IBM QRadar", 
-        "Elastic SIEM", "CrowdStrike Falcon", "SentinelOne", "Cortex XDR", 
-        "Carbon Black", "Microsoft Defender for Endpoint", "UEBA", 
-        "Security Event Correlation"
+        "Splunk Enterprise Security", "Microsoft Sentinel", "IBM QRadar",
+        "CrowdStrike Falcon", "SentinelOne", "Cortex XDR", "Cortex XSOAR", "UEBA"
       ]
     },
     {
@@ -118,10 +112,8 @@ const About = () => {
       headingColor: "text-amber-600 dark:text-amber-400",
       tagClass: "bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-300 border border-amber-100/50 dark:border-amber-900/40 hover:bg-amber-100/60 dark:hover:bg-amber-950/60",
       skills: [
-        "Palo Alto NGFW", "Fortinet FortiGate", "Cisco ASA", "IDS/IPS", 
-        "Snort", "Suricata", "WAF", "VPN", "TCP/IP", "DNS", "Wireshark", 
-        "IAM", "PAM", "CyberArk", "Okta", "Microsoft Entra ID (Azure AD)", 
-        "Ping Identity", "SSO", "MFA", "RBAC", "Conditional Access", "Zero Trust"
+        "IAM", "CyberArk", "Microsoft Entra ID (Azure AD)", "MFA",
+        "RBAC", "Conditional Access", "Zero Trust Security"
       ]
     },
     {
@@ -130,10 +122,8 @@ const About = () => {
       headingColor: "text-sky-600 dark:text-sky-400",
       tagClass: "bg-sky-50 text-sky-700 dark:bg-sky-950/40 dark:text-sky-300 border border-sky-100/50 dark:border-sky-900/40 hover:bg-sky-100/60 dark:hover:bg-sky-950/60",
       skills: [
-        "AWS", "Microsoft Azure", "GCP", "AWS Security Hub", "GuardDuty", 
-        "CloudTrail", "Microsoft Defender for Cloud", "GCP Security Command Center", 
-        "Cloud Operations", "Docker", "Kubernetes", "OPA", "Falco", 
-        "HashiCorp Vault", "Terraform"
+        "AWS", "Microsoft Azure", "Google Cloud Platform (GCP)", "AWS Security Hub",
+        "GuardDuty", "CloudTrail", "Microsoft Defender for Cloud", "Docker", "OPA", "Falco"
       ]
     },
     {
@@ -142,9 +132,8 @@ const About = () => {
       headingColor: "text-orange-600 dark:text-orange-400",
       tagClass: "bg-orange-50 text-orange-700 dark:bg-orange-950/40 dark:text-orange-300 border border-orange-100/50 dark:border-orange-900/40 hover:bg-orange-100/60 dark:hover:bg-orange-950/60",
       skills: [
-        "Nessus", "Tenable.io", "Tenable.sc", "Qualys", "Rapid7 InsightVM", 
-        "OpenVAS", "Vulnerability Assessment", "Penetration Testing", 
-        "Burp Suite Pro", "Metasploit", "OWASP ZAP", "Nmap", "Kali Linux"
+        "Vulnerability Assessment", "Penetration Testing", "Nessus", "Qualys",
+        "Rapid7 InsightVM", "Burp Suite Pro", "Metasploit", "OpenVAS", "Nmap"
       ]
     },
     {
@@ -153,8 +142,8 @@ const About = () => {
       headingColor: "text-indigo-600 dark:text-indigo-400",
       tagClass: "bg-indigo-50 text-indigo-700 dark:bg-indigo-950/40 dark:text-indigo-300 border border-indigo-100/50 dark:border-indigo-900/40 hover:bg-indigo-100/60 dark:hover:bg-indigo-950/60",
       skills: [
-        "DevSecOps", "Secure SDLC", "OWASP Top 10", "SAST", "DAST", 
-        "Semgrep", "Checkmarx", "Veracode", "CI/CD Security", "IaC Security"
+        "DevSecOps", "Secure SDLC", "Checkmarx", "Veracode", "Kubernetes",
+        "CI/CD Security", "Semgrep", "SonarQube", "Jenkins"
       ]
     },
     {
@@ -163,8 +152,7 @@ const About = () => {
       headingColor: "text-emerald-600 dark:text-emerald-400",
       tagClass: "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300 border border-emerald-100/50 dark:border-emerald-900/40 hover:bg-emerald-100/60 dark:hover:bg-emerald-950/60",
       skills: [
-        "Python", "PowerShell", "Bash", "SQL", "Go", "JavaScript", 
-        "Ansible", "Security Automation", "API Integrations"
+        "Python", "PowerShell", "Security Automation", "API Integrations", "Terraform"
       ]
     },
     {
@@ -173,8 +161,8 @@ const About = () => {
       headingColor: "text-violet-600 dark:text-violet-400",
       tagClass: "bg-violet-50 text-violet-700 dark:bg-violet-950/40 dark:text-violet-300 border border-violet-100/50 dark:border-violet-900/40 hover:bg-violet-100/60 dark:hover:bg-violet-950/60",
       skills: [
-        "Incident Response", "Root Cause Analysis", "Malware Analysis", 
-        "Threat Investigation", "Digital Forensics", "IR Playbooks"
+        "Incident Response", "Root Cause Analysis", "Threat Investigation",
+        "MITRE ATT&CK", "Alert Triage"
       ]
     },
     {
@@ -183,9 +171,7 @@ const About = () => {
       headingColor: "text-teal-600 dark:text-teal-400",
       tagClass: "bg-teal-50 text-teal-700 dark:bg-teal-950/40 dark:text-teal-300 border border-teal-100/50 dark:border-teal-900/40 hover:bg-teal-100/60 dark:hover:bg-teal-950/60",
       skills: [
-        "NIST CSF", "NIST 800-53", "NIST 800-207", "ISO 27001", 
-        "PCI-DSS", "HIPAA", "GDPR", "SOX ITGC", "SOC 2", "CIS Controls", 
-        "MITRE ATT&CK", "FFIEC", "GLBA"
+        "NIST CSF", "ISO 27001", "PCI-DSS", "HIPAA", "SOC 2", "CIS Controls"
       ]
     }
   ];
@@ -204,7 +190,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Cybersecurity Engineer with 4+ years of experience specializing in Security Operations, Cyber Threat Detection, Cloud Security, and Information Assurance.
+              Senior Cybersecurity Engineer with 4+ years securing multi-cloud environments across financial services and healthcare — specializing in SIEM/SOAR, IAM, and DevSecOps.
             </p>
 
             {/* Quick Contact Badges */}

@@ -83,7 +83,7 @@ const Hero = () => {
           {/* Centered Content */}
           <div className="animate-fade-in">
             <span className="px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-semibold mb-6 inline-block tracking-wider uppercase">
-              Cybersecurity Engineer
+              Senior Cybersecurity Engineer
             </span>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
@@ -98,8 +98,8 @@ const Hero = () => {
               className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed font-medium animate-fade-in-up"
               style={{ animationDelay: "0.4s" }}
             >
-              Protecting cloud infrastructures, optimizing threat operations, and securing enterprise architectures. 
-              Over 4 years of hands-on experience in SOC, Incident Response, Vulnerability Management, and DevSecOps.
+              Securing multi-cloud environments across financial services and healthcare. Specialized in
+              SIEM/SOAR architecture, IAM, and DevSecOps — delivering measurable reductions in risk, response time, and vulnerabilities.
             </p>
 
             <div
